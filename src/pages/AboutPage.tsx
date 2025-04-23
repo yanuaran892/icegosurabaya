@@ -52,7 +52,7 @@ const AboutPage: React.FC = () => {
             className="flex items-center justify-center"
           >
             <img 
-              src="https://images.pexels.com/photos/533847/pexels-photo-533847.jpeg" 
+              src="https://tumbas.mojokertokab.go.id/storage/1699855262.9825.jpg" 
               alt="Ice Manufacturing" 
               className="rounded-xl shadow-xl max-h-96 object-cover"
             />
