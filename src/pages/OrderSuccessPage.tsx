@@ -27,16 +27,16 @@ const OrderSuccessPage: React.FC = () => {
             </div>
           </div>
           
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Order Successful!</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">Order Sukses!</h1>
           <p className="text-gray-600 mb-6">
-            Thank you for your order. We've received your request and will deliver your ice products soon.
+          Terima kasih atas pesanan Anda. Kami telah menerima permintaan Anda dan akan segera mengirimkan produk es Anda.
           </p>
           
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
             <p className="font-medium text-gray-700 mb-2">Order Reference</p>
             <p className="text-2xl font-bold text-ice-primary">{orderNumber}</p>
             <p className="text-sm text-gray-500 mt-2">
-              Please keep this reference for tracking your order
+            Harap simpan referensi ini untuk melacak pesanan Anda
             </p>
           </div>
           

@@ -26,8 +26,8 @@ const OrderPage: React.FC = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Select your preferred ice product, specify the quantity, and we'll deliver it to your doorstep. 
-            We operate from 7:00 AM to 10:00 PM daily.
+            Pilih produk es yang Anda inginkan, tentukan jumlahnya, dan kami akan mengantarkannya ke depan pintu rumah Anda. 
+            Kami beroperasi dari pukul 07.00 hingga 22.00 setiap hari.
           </motion.p>
         </div>
         

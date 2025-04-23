@@ -28,8 +28,8 @@ const ProductDetailPage: React.FC = () => {
   if (!product) {
     return (
       <div className="container mx-auto px-4 pt-24 pb-16 text-center">
-        <h1 className="text-2xl font-bold text-gray-900 mb-4">Product Not Found</h1>
-        <p className="text-gray-600 mb-6">The product you're looking for doesn't exist.</p>
+        <h1 className="text-2xl font-bold text-gray-900 mb-4">Produk Tidak Ada</h1>
+        <p className="text-gray-600 mb-6">Produk yang kamu cari tidak ada</p>
         <Button variant="primary" onClick={() => navigate('/products')}>
           Back to Products
         </Button>
@@ -57,7 +57,7 @@ const ProductDetailPage: React.FC = () => {
           transition={{ duration: 0.3 }}
         >
           <ArrowLeft className="h-5 w-5 mr-2" />
-          Back to Products
+          Kembali Ke Produk
         </motion.button>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
